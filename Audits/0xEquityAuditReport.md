@@ -1,7 +1,7 @@
 # **0xEquity Audit Report**
 
 # Introduction :-
-The [0xEquity](https://www.0xequity.io/) protocol underwent a time-limited security audit conducted by ([ABDul Rehman](https://twitter.com/TheTradMod)). During the assessment, a total of **1 High**, **3 Medium** & **7 Low** issues were identified and disclosed.
+The [0xEquity](https://www.0xequity.io/) protocol underwent a time-limited security audit conducted by [ABDul Rehman](https://twitter.com/TheTradMod). During the assessment, a total of **1 High**, **3 Medium** & **7 Low** issues were identified and disclosed.
 
 # Qualitative Analysis:
 | Metric              | Rating    | Comments                               |
