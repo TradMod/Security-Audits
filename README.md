@@ -4,6 +4,7 @@ I'm an independent security researcher.
 ## Security Engagements
 | Project | Category | Type | Language | Report |
 |:-|:-|:-|:-|:-:|
+| 0xEquity | Marketplace | Solo | Solidity | [Link]() |
 | RemusDex | DEX CLOB | Codespect | Cairo | [Link](https://4035147079-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FRVgLSrotDSeRUD3ctrup%2Fuploads%2FUhO5EKABelUTNlUxOqug%2FCODESPECT_REMUSDEX_AUDIT.pdf?alt=media&token=7c384482-ee4e-4879-912f-b33d00d51590) |
 | 0xEquity | Marketplace | Solo | Solidity | [Link]() |
 | IDriss | Payments | Solo | Solidity | [Link]() |
@@ -11,7 +12,9 @@ I'm an independent security researcher.
 | TokenTable | Payments | Codespect | Solidity | [Link]() |
 
 ## Bug Bounty Findings
-- Dangerous Payable Function - Low - DEX - [Details]()
+| Project | Bug Description | Severity | Language | Report |
+|:-|:-|:-|:-|:-:|
+| WardenSwap | Dangerous Payable Function | LOW | Solidity | [Details]() |
 
 <!-- ## Public Audit Competitions 
 | Date | Project | Category | Platform | Language | Report | Notes |
