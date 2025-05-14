@@ -4,17 +4,16 @@ I'm an independent security researcher.
 ## Security Engagements
 | Project | Category | Type | Language | Report |
 |:-|:-|:-|:-|:-:|
-| 0xEquity | Marketplace | Solo | Solidity | [Link]() |
-| RemusDex | DEX CLOB | Codespect | Cairo | [Link](https://4035147079-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FRVgLSrotDSeRUD3ctrup%2Fuploads%2FUhO5EKABelUTNlUxOqug%2FCODESPECT_REMUSDEX_AUDIT.pdf?alt=media&token=7c384482-ee4e-4879-912f-b33d00d51590) |
-| 0xEquity | Marketplace | Solo | Solidity | [Link]() |
-| IDriss | Payments | Solo | Solidity | [Link]() |
-| Toucan | Cross Chain | BlockApex | Solidity | [Link]() |
-| TokenTable | Payments | Codespect | Solidity | [Link]() |
+| 0xEquity | Marketplace | Solo | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
+| RemusDex | DEX CLOB | Codespect | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
+| IDriss | Payments | Solo | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
+| Toucan | Cross Chain | BlockApex | Solidity | PRIVATE |
+| TokenTable | Payments | Codespect | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
 ## Bug Bounty Findings
 | Project | Bug Description | Severity | Language | Report |
 |:-|:-|:-|:-|:-:|
-| WardenSwap | Dangerous Payable Function | LOW | Solidity | [Details]() |
+| WardenSwap | Dangerous Payable Function | LOW | Solidity | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
 
 <!-- ## Public Audit Competitions 
 | Date | Project | Category | Platform | Language | Report | Notes |
@@ -31,4 +30,4 @@ Soon InShaaAllah -->
 
  For private audits or security consulting, please reach out to me on:
 - Telegram: [TradMod](https://t.me/TradMod)
-- Twitter (X): [TradMod](https://x.com/TheTradMod)
+- Twitter/X: [TradMod](https://x.com/TheTradMod)
