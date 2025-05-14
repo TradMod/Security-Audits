@@ -2,13 +2,13 @@
 I'm an independent security researcher.
 
 ## Security Engagements
-| Project | Category | Type | Language | Report |
+| Project | Protocol Type | Audit Type | Language | Report |
 |:-|:-|:-|:-|:-:|
 | 0xEquity | Marketplace | Solo | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
-| RemusDex | DEX CLOB | Codespect | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
+| RemusDex | DEX & CLOB | Team - Codespect | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
 | IDriss | Payments | Solo | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
-| Toucan LightLink | Cross Chain | BlockApex | Solidity | PRIVATE |
-| TokenTable | Payments | Codespect | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
+| Toucan LightLink | Cross-Chain, Governance & LayerZero OFTs | Team - BlockApex | Solidity | PRIVATE |
+| TokenTable | Tokens Vesting | Team - Codespect | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
 ## Bug Bounty Findings
 | Project | Bug Description | Severity | Language | Report |
