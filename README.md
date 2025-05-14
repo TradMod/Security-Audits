@@ -12,7 +12,7 @@ I'm an independent security researcher.
 
 ## Bug Bounty Findings
 | Project | Bug Description | Severity | Language | Report |
-|:-|:-|:-|:-|:-:|
+|:---|:-|:-|:-|:-:|
 | WardenSwap | Dangerous Payable Function | LOW | Solidity | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
 
 <!-- ## Public Audit Competitions 
