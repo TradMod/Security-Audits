@@ -10,6 +10,9 @@ I'm an independent security researcher.
 | Toucan | Cross Chain | BlockApex | Solidity | [Link]() |
 | TokenTable | Payments | Codespect | Solidity | [Link]() |
 
+## Bug Bounty Findings
+- Dangerous Payable Function - Low - DEX - [Details]()
+
 <!-- ## Public Audit Competitions 
 | Date | Project | Category | Platform | Language | Report | Notes |
 |:-|:-|:-|:-|:-|:-:|:-:|
