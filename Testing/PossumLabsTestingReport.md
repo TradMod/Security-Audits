@@ -1,11 +1,11 @@
 Unit/Fork Testing caught 1 High, 1 Medium & 1 Low security vulnerabilities. 
-HIGH: migrateStake() deletes the msg.sender's accounts data instead of user's. 
-MEDIUM: Transfer user's inputted amount instaed of actual recieved amount
-LOW: Dangerous Payable Function
+- HIGH: migrateStake() deletes the msg.sender's accounts data instead of user's. 
+- MEDIUM: Transfer user's inputted amount instaed of actual recieved amount
+- LOW: Dangerous Payable Function
 
 PR: https://github.com/PossumLabsCrypto/Adapters/pull/2
-Test Coverage Updated up to 70%
-All Tests Pass:
+
+Test Coverage Updated up to 70%. All Tests Pass:
 ```js
 $ forge test --fork-url $ARB_MAINNET_RPC_URL 
 [⠆] Compiling...
