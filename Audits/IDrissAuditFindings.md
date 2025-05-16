@@ -1,3 +1,23 @@
+| Label | Description |
+|------|--------------|
+| H-01 | Users can transfer multiple NFTs by just paying for 1 NFT transfer fee |
+| M-01 | Donating NFTs to Optimism Public Good Address costs fee |
+| M-02 | Wrong functionion selector, selected for ERC721 |
+| M-03 | Use safetransfer instead of transfer for transferring ERC20 Tokens |
+| M-04 | Chainlink Oracle priceFeed Data may return Stale Prices due to improper validation |
+| M-05 | Unncessearily Complicated & Buggy batch functionality implementation |
+| L-01 | Dangerous `payable` function: Users may accidentaly send Native coins and lose it |
+| L-02 | Revert conditions not handled well |
+| I-01 | Variable defined but not used/set |
+| I-02 | Dev commnets and param commnets missing |
+| I-03 | Use reentrancy locks/gaurds |
+| I-04 | Take fees in Native coins for the ERC20 as well or consider using a ERC20 Tokens Whitelist |
+| I-05 | Use Named imports consistently |
+| I-06 | Contract & File name mismatch |
+| I-07 | Wrong Comment |
+| G-01 | Use `if/else` to check the public good address and setting the payment value |
+| G-02 | Use custom errors instead of require/revert strings msgs |
+
 # High Risk Findings
 ## H-01: Users can transfer multiple NFTs by just paying for 1 NFT transfer fee
 `TippingOp.batch()` allows users to transfer multiple assets to multiple users. The protocol takes transfer fee for every asset transfer. The fee mechanism is well implemented in the single asset transfer functions like `sendERC721To()` but breaks in the `batch()` function in the case of NFTs (ERC721 & ERC1155).
@@ -40,42 +60,24 @@ Do not hardcode the values to zero for the ERC721 & ERC777 in the calculateMsgVa
 
 Note: This might break the batch functionality, nvm batch is already broken as explained in `H-02`, so with the new implemntation be careful about it.
 
-## H-02: Unncessearily Complicated & Buggy batch functionality implementation
-The batch functionality is used to distribute multipole assests, but there are so many problems with current implementation. This functionality can be easily done with simple & secure implementation. Let's first discuss the main problems with the current batch functionality;
-1. Batch takes an arbitrary array of values as an Input:
-```solidity
-    function batch(bytes[] calldata _calls) external payable {
-        batchCall(_calls);
-    }
-```
-The `_calls` data is used in the `delegatecall` to the contract (address(this)). This can be really dangerous. Input for function like this and `address(this).delegatecall()`, should always be restricted with a struct.
-
-2. It doesn't handles the fee mechanism well
-As described in the `H-01` the fee mechanism for batch calls is broken. It will likely also break in the cases of when there is multiple recipients and one of the address is optimism public good address. The implementation of fee-mechanism will be really complicated. 
-
-These are the two main issues which makes the batch functionality really bad & unnecassarily complicated. It is using assembely, delegatecall, function selectors, all things which should be only used when very necesaasry. This functionality can be easily implemented without going into many complications.
+# Medium Risk Findings
+## M-01: Donating NFTs to Optimism Public Good Address costs fee
+Assets transfer to optimism public good address shouldn't take [fees](https://help.optimism.io/hc/en-us/articles/5608921918875-What-are-public-goods-). The protocol makes sure that in the case of native Coins and ERC20 tokens but not in the ERC721 & ERC1155 case. As the `sendERC721()` & `sendERC1155()` doesn't check if the recipinet is Optimism Public Good Address or not.
 
 ### Recommended Mitigation:
-Add 4 simple functions in the TippingOP.sol; `batchSendTo()`, `batchSendTokenTo()`, `batchSendERC721To()` & `batchSendERC1155To()`. These functions should just do some looping and forward calls to the respective aleady implemented functions. 
-- A simple `batchERC20To()` example: 
+Add Optimism Public Good Address check in both `sendERC721()` & `sendERC1155()` functions and if the adress is public good address then make sure `msg.value` is zero.
 ```solidity
-    ///@audit-info Recommended Batch() Example
-    function batchSendTokenTo(
-        address[] _recipient,
-        uint256[] _amount,
-        address _tokenContractAddr,
-        string memory _message
-    ) external payable override {
-        require(_recipient.length == _amount.length, "mismatch");
-        for (uint i = 0; i < _amount.length; i++) {
-            sendTokenTo(_recipient[i], _amount[i], _tokenContractAddr, _message);
+        if (publicGoods[_recipient]) {
+            require(msg.value == 0);
+            _attestDonor(_recipient);
+        } else {
+            uint256 msgValue = _MSG_VALUE > 0 ? _MSG_VALUE : msg.value;
+            (uint256 fee,) = _splitPayment(msgValue, AssetType.NFT);
         }
-    }
 ```
-This will help in better management of the fee-mechanism and lower the complexity of the code whcih means increased userability.
+Note: This might break the batch functionality, nvm batch is already broken as explained in `H-02`, so with the new implemntation be careful about it.
 
-# Medium Risk Findings
-## M-01: Wrong functionion selector, selected for ERC721. 
+## M-02: Wrong functionion selector, selected for ERC721. 
 `TippingOp.calculateMsgValueForACall()` is using the Wrong functionion selector for the ERC721, which will cause users to pay the wrong & unexpected fee: 
 ```solidity
     function calculateMsgValueForACall(bytes4 _selector, bytes memory _calldata) override view internal returns (uint256) {
@@ -108,22 +110,6 @@ It should be `_selector == this.sendERC721To.selector`
         return currentCallPriceAmount;
     }
 ```
-
-## M-02: Donating NFTs to Optimism Public Good Address costs fee
-Assets transfer to optimism public good address shouldn't take [fees](https://help.optimism.io/hc/en-us/articles/5608921918875-What-are-public-goods-). The protocol makes sure that in the case of native Coins and ERC20 tokens but not in the ERC721 & ERC1155 case. As the `sendERC721()` & `sendERC1155()` doesn't check if the recipinet is Optimism Public Good Address or not.
-
-### Recommended Mitigation:
-Add Optimism Public Good Address check in both `sendERC721()` & `sendERC1155()` functions and if the adress is public good address then make sure `msg.value` is zero.
-```solidity
-        if (publicGoods[_recipient]) {
-            require(msg.value == 0);
-            _attestDonor(_recipient);
-        } else {
-            uint256 msgValue = _MSG_VALUE > 0 ? _MSG_VALUE : msg.value;
-            (uint256 fee,) = _splitPayment(msgValue, AssetType.NFT);
-        }
-```
-Note: This might break the batch functionality, nvm batch is already broken as explained in `H-02`, so with the new implemntation be careful about it.
 
 ## M-03: Use safetransfer instead of transfer for transferring ERC20 Tokens
 The protocol intends to support all ERC20 tokens. Some tokens (like USDT) do not implement the EIP20 standard correctly and their transfer/transferFrom function return void instead of a success boolean. Calling these functions with the correct EIP20 function signatures will revert.
@@ -179,6 +165,40 @@ function _dollarToWei() external view override returns (uint256) {
 }
 ```
 Reference: OpenZeppelin - [The Dangers of Price Oracles](https://blog.openzeppelin.com/secure-smart-contract-guidelines-the-dangers-of-price-oracles)
+
+## M-05: Unncessearily Complicated & Buggy batch functionality implementation
+The batch functionality is used to distribute multipole assests, but there are so many problems with current implementation. This functionality can be easily done with simple & secure implementation. Let's first discuss the main problems with the current batch functionality;
+1. Batch takes an arbitrary array of values as an Input:
+```solidity
+    function batch(bytes[] calldata _calls) external payable {
+        batchCall(_calls);
+    }
+```
+The `_calls` data is used in the `delegatecall` to the contract (address(this)). This can be really dangerous. Input for function like this and `address(this).delegatecall()`, should always be restricted with a struct.
+
+2. It doesn't handles the fee mechanism well
+As described in the `H-01` the fee mechanism for batch calls is broken. It will likely also break in the cases of when there is multiple recipients and one of the address is optimism public good address. The implementation of fee-mechanism will be really complicated. 
+
+These are the two main issues which makes the batch functionality really bad & unnecassarily complicated. It is using assembely, delegatecall, function selectors, all things which should be only used when very necesaasry. This functionality can be easily implemented without going into many complications.
+
+### Recommended Mitigation:
+Add 4 simple functions in the TippingOP.sol; `batchSendTo()`, `batchSendTokenTo()`, `batchSendERC721To()` & `batchSendERC1155To()`. These functions should just do some looping and forward calls to the respective aleady implemented functions. 
+- A simple `batchERC20To()` example: 
+```solidity
+    ///@audit-info Recommended Batch() Example
+    function batchSendTokenTo(
+        address[] _recipient,
+        uint256[] _amount,
+        address _tokenContractAddr,
+        string memory _message
+    ) external payable override {
+        require(_recipient.length == _amount.length, "mismatch");
+        for (uint i = 0; i < _amount.length; i++) {
+            sendTokenTo(_recipient[i], _amount[i], _tokenContractAddr, _message);
+        }
+    }
+```
+This will help in better management of the fee-mechanism and lower the complexity of the code whcih means increased userability.
 
 # Low Risk Findings
 ## L-01: Dangerous `payable` function: Users may accidentaly send Native coins and lose it
