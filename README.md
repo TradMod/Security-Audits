@@ -16,10 +16,14 @@ I'm an independent security researcher.
 |:---|:-|:-|:-|:-:|:-:|
 | WardenSwap | Dangerous Payable Function | LOW | Solidity | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
 
-<!-- ## Public Audit Competitions 
-| Date | Project | Category | Platform | Language | Report | Notes |
-|:-|:-|:-|:-|:-|:-:|:-:|
-| - | - | - | - | - | - | - | 
+## Notable Audit Competitions Achievements 
+| Project | Category | Language | Note | 
+|:-|:-|:-|:-:|
+| Thorchain | Cross-chain | Solidity & GO | Top-7 with a [High](https://github.com/code-423n4/2024-06-thorchain-findings/issues/17) and [2](https://github.com/code-423n4/2024-06-thorchain-findings/issues/55) [Mediums](https://github.com/code-423n4/2024-06-thorchain-findings/issues/44) | 
+| Catalyst | Cross-chain | Solidity | Top-5 with a [Unique](https://github.com/hats-finance/Catalyst-Exchange-0x3026c1ea29bf1280f99b41934b2cb65d053c9db4/issues/11) Finding | 
+| Unitas | Stables | Solidity | Top-7 with a [High](https://github.com/sherlock-audit/2023-04-unitasprotocol-judging/issues/105) Impact Finding | 
+| Party | Governance | Solidity | [Critical](https://github.com/code-423n4/2023-10-party-findings/issues/370) Impact Finding | 
+| Superform | Vaults & Cross-chain | Solidity | [Medium](https://github.com/superform-xyz/superform-core/blob/main/security-review/2023-12-cantina-competition.md#medium-risk) Impact Finding  | 
 
 <!-- ## Testimonials & Feedbacks
 Soon InShaaAllah -->
