@@ -19,7 +19,7 @@ I'm an independent security researcher.
 ## Notable Audit Competitions Achievements 
 | Project | Protocol Type | Language | Result | Links |
 |:-|:-|:-|:-|:-:|
-| Thorchain | Cross-chain | Solidity & GO | Top-7 with a High and 2 Meds | [High](https://github.com/code-423n4/2024-06-thorchain-findings/issues/17), [M-1](https://github.com/code-423n4/2024-06-thorchain-findings/issues/55), [M-2](https://github.com/code-423n4/2024-06-thorchain-findings/issues/44) | 
+| Thorchain | Cross-chain | Solidity & GO | Top-7 with a High and 2 Meds | [High](https://github.com/code-423n4/2024-06-thorchain-findings/issues/17) | 
 | Catalyst | Cross-chain | Solidity | Top-5 with a Uniquie Findings | [Low](https://github.com/hats-finance/Catalyst-Exchange-0x3026c1ea29bf1280f99b41934b2cb65d053c9db4/issues/11) | 
 | Unitas | Stablecoins | Solidity | Top-7 with a High Impact Finding | [High](https://github.com/sherlock-audit/2023-04-unitasprotocol-judging/issues/105) | 
 | Party | Governance | Solidity | Critical Impact Finding | [Critical](https://github.com/code-423n4/2023-10-party-findings/issues/370) | 
