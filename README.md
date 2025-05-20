@@ -23,6 +23,7 @@ I'm an independent security researcher.
 | Catalyst | Cross-chain | Solidity | Top-5 with a Uniquie Finding | [Bug](https://github.com/hats-finance/Catalyst-Exchange-0x3026c1ea29bf1280f99b41934b2cb65d053c9db4/issues/11) | 
 | Unitas | Stablecoins | Solidity | Top-7 with a High Impact Finding | [Bug](https://github.com/sherlock-audit/2023-04-unitasprotocol-judging/issues/105) | 
 | Party | Governance | Solidity | Critical Impact Finding | [Bug](https://github.com/code-423n4/2023-10-party-findings/issues/370) | 
+| Chakra | Cross-chain | Solidity & Cairo | 3 High impact Findings and a Medium | [Bug](https://github.com/code-423n4/2024-08-chakra-findings/issues/84) | 
 
 <!-- ## Testimonials & Feedbacks
 Soon InShaaAllah -->
