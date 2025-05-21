@@ -1,5 +1,5 @@
 # TradMod Audit Portfolio
-I'm an independent smart contract security researcher. This portfolio includes my solo audits with clients, collaborative audits with security firms and teams, bug bounty findings, results from competitive audit contests and other realted security research. For testimonials and feedbacks about my work, make sure to follow me on twitter/x [@TheTradMod](https://x.com/TheTradMod). Thanks!
+I'm an independent smart contract security researcher. This portfolio includes details about my solo audits with clients, collaborative audits with security firms and teams, bug bounty findings, results from competitive audit contests and other related security research. For testimonials and feedbacks about my work, make sure to follow me on twitter/x [@TheTradMod](https://x.com/TheTradMod). Thanks!
 
 ## Security Engagements 🤝
 | Project | Protocol Type | Engagement Type | Language | Report |
