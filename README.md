@@ -33,6 +33,6 @@ Soon InShaaAllah -->
 - [Code4rena](https://code4rena.com/@TradMod)
 - [Sherlock](https://audits.sherlock.xyz/watson/TradMod) -->
 ---
-☎️ For private audits or collaborative team audits, please reach out to me on:
+For private audits or collaborative team audits, please reach out to me on:
 - Twitter/X: [TradMod](https://x.com/TheTradMod)
 - Telegram: [TheTradMod](https://t.me/TheTradMod)
