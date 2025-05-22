@@ -1,7 +1,7 @@
 # TradMod Audit Portfolio
 I'm an independent smart contracts security researcher. This portfolio includes details about my solo audits with clients, collaborative audits with security firms and teams, bug bounty findings, results from competitive audit contests and other related security research. For testimonials and feedbacks about my work, make sure to follow me on twitter/x [@TheTradMod](https://x.com/TheTradMod). Thanks!
 
-## Security Engagements 🤝
+## Security Engagements 
 | Project | Protocol Type | Engagement Type | Language | Report |
 |:-|:-|:-|:-|:-:|
 | 0xEquity | RWAs Marketplace | Solo Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
@@ -11,12 +11,12 @@ I'm an independent smart contracts security researcher. This portfolio includes 
 | Toucan LightLink | Cross-Chain Governance & LayerZero OFTs | Team Audit/[BlockApex](https://blockapex.io/) | Solidity | [Link](https://github.com/BlockApex/Audit-Reports) |
 | TokenTable | Tokens Vesting & Distribution | Team Audit/[Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
-## Bug Bounty Findings 🔍
+## Bug Bounty Findings
 | Project | Bug Description | Protocol Type | Severity | Language | Platform | Report |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | WardenSwap | Dangerous Payable Function | DEX | LOW | Solidity | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
 
-## Notable Audit Contests Achievements 🎖️
+## Notable Audit Contests Achievements
 | Project | Protocol Type | Platform | Language | Result | Links |
 |:-|:-|:-|:-|:-|:-:|
 | Thorchain | Cross-chain | Code4rena | Solidity & GO | Top-7 with a High and 2 Meds | [Bug](https://github.com/code-423n4/2024-06-thorchain-findings/issues/17) | 
@@ -25,10 +25,10 @@ I'm an independent smart contracts security researcher. This portfolio includes 
 | Party | Governance | Code4rena | Solidity | Critical Impact Finding | [Bug](https://github.com/code-423n4/2023-10-party-findings/issues/370) | 
 | Chakra | Cross-chain | Code4rena | Cairo & Solidity | 3 High impact Findings and a Medium | [Bug](https://github.com/code-423n4/2024-08-chakra-findings/issues/84) | 
 
-<!-- ## Other Security Research -->
-<!-- Saving a User from a Scam - [Details](link) -->
+## Security Research 
+- Saving a User from a Scam - [Details](link) 
 
 ---
-For private audits or collaborative team audits, please reach out to me on:
+For audits or collaborative team audits, please reach out to me on:
 - Twitter/X: [TradMod](https://x.com/TheTradMod)
 - Telegram: [TheTradMod](https://t.me/TheTradMod)
