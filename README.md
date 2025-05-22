@@ -1,5 +1,5 @@
 # TradMod Audit Portfolio
-I'm an independent smart contract security researcher. This portfolio includes details about my solo audits with clients, collaborative audits with security firms and teams, bug bounty findings, results from competitive audit contests and other related security research. For testimonials and feedbacks about my work, make sure to follow me on twitter/x [@TheTradMod](https://x.com/TheTradMod). Thanks!
+I'm an independent smart contracts security researcher. This portfolio includes details about my solo audits with clients, collaborative audits with security firms and teams, bug bounty findings, results from competitive audit contests and other related security research. For testimonials and feedbacks about my work, make sure to follow me on twitter/x [@TheTradMod](https://x.com/TheTradMod). Thanks!
 
 ## Security Engagements 🤝
 | Project | Protocol Type | Engagement Type | Language | Report |
@@ -8,7 +8,7 @@ I'm an independent smart contract security researcher. This portfolio includes d
 | RemusDex | DEX & CLOB | Team Audit/[Codespect](https://codespect.net/) | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
 | IDriss | Tokens Tipping/Payments | Solo Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
 | Possum Labs | DEX Adapter | Testing | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Testing/PossumLabsTestingReport.md) |
-| Toucan LightLink | Cross-Chain Governance & LayerZero OFTs | Team Audit/[BlockApex](https://blockapex.io/) | Solidity | PRIVATE |
+| Toucan LightLink | Cross-Chain Governance & LayerZero OFTs | Team Audit/[BlockApex](https://blockapex.io/) | Solidity | [Link](https://github.com/BlockApex/Audit-Reports) |
 | TokenTable | Tokens Vesting & Distribution | Team Audit/[Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
 ## Bug Bounty Findings 🔍
@@ -16,7 +16,7 @@ I'm an independent smart contract security researcher. This portfolio includes d
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | WardenSwap | Dangerous Payable Function | DEX | LOW | Solidity | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
 
-## Notable Audit Competitions Achievements 🎖️
+## Notable Audit Contests Achievements 🎖️
 | Project | Protocol Type | Platform | Language | Result | Links |
 |:-|:-|:-|:-|:-|:-:|
 | Thorchain | Cross-chain | Code4rena | Solidity & GO | Top-7 with a High and 2 Meds | [Bug](https://github.com/code-423n4/2024-06-thorchain-findings/issues/17) | 
@@ -25,13 +25,9 @@ I'm an independent smart contract security researcher. This portfolio includes d
 | Party | Governance | Code4rena | Solidity | Critical Impact Finding | [Bug](https://github.com/code-423n4/2023-10-party-findings/issues/370) | 
 | Chakra | Cross-chain | Code4rena | Cairo & Solidity | 3 High impact Findings and a Medium | [Bug](https://github.com/code-423n4/2024-08-chakra-findings/issues/84) | 
 
-<!-- ## Testimonials & Feedbacks
-Soon InShaaAllah -->
+<!-- ## Other Security Research -->
+<!-- Saving a User from a Scam - [Details](link) -->
 
-<!-- ## Profiles
-- [Cantina](https://cantina.xyz/u/TradMod)
-- [Code4rena](https://code4rena.com/@TradMod)
-- [Sherlock](https://audits.sherlock.xyz/watson/TradMod) -->
 ---
 For private audits or collaborative team audits, please reach out to me on:
 - Twitter/X: [TradMod](https://x.com/TheTradMod)
