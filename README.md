@@ -30,5 +30,5 @@ I'm an independent smart contracts security researcher. This portfolio includes 
 
 ---
 For audits or collaborative team audits, please reach out to me on:
-- Twitter/X: [TradMod](https://x.com/TheTradMod)
+- Twitter/X: [TheTradMod](https://x.com/TheTradMod)
 - Telegram: [TheTradMod](https://t.me/TheTradMod)
