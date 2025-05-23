@@ -108,3 +108,24 @@ Make sure to add the Mock Contracts to run the PoC. Mock Contracts can be create
 >         return selected_pair.isAwaiting;
 >     }
 > I added this getAwait() in the main contract, just for my help, you guys can do the same or remove all the spoke.getAwait() calls from the tests, it can be removed and the PoC will still work as one send() will pass & the other send() will still revert and thats enough to showcase the PoC.
+
+## Aftermath
+
+I reported this bug around the 3rd of August, but the team didn’t respond until September. By October, they were removed from the platform. Honestly, those two months were pretty rough. The project clearly had no intention of paying and kept stalling with irrelevant questions. Even after eventually acknowledging that the technically vulnerability is there, they still refused to pay—demonstrating clear bad faith. That’s ultimately why they were removed from Immunefi and banned from posting a BBP again.
+
+This was my first time discovering a critical vulnerability in a live protocol, and while the team’s behavior was disappointing, the experience itself was valuable.
+
+- Here are the screenshots of the conversation with the protocls team and finally Immunefi's removal decision: 
+> Note: Before TradMod, my username was Shaheen :D
+
+<img width="1068" alt="Image" src="https://github.com/user-attachments/assets/9cb46000-fb12-4e7a-9838-f9b91f17b26c" />
+
+<img width="1068" alt="Image" src="https://github.com/user-attachments/assets/81e127be-b3bd-4c3c-94ca-fd4e52ad9cc8" />
+
+<img width="910" alt="Image" src="https://github.com/user-attachments/assets/43f15416-0742-4834-b824-614ee051b058" />
+
+<img width="910" alt="Image" src="https://github.com/user-attachments/assets/2b2b062d-3c8e-405d-acae-053ca91f143b" />
+
+<img width="932" alt="Image" src="https://github.com/user-attachments/assets/83c5224a-329a-40ca-894e-1ddbfcc2f37b" />
+
+<img width="1025" alt="Image" src="https://github.com/user-attachments/assets/097f095e-17f2-4705-b1fb-cf4469b2848e" />
