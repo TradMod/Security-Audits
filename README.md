@@ -1,5 +1,5 @@
 # TradMod Audit Portfolio
-I'm an independent smart contracts security researcher. This portfolio includes details about my solo audits with clients, collaborative audits with security firms and teams, bug bounty findings, results from competitive audit contests and other related security research. For testimonials and feedbacks about my work, make sure to follow me on twitter/x [@TheTradMod](https://x.com/TheTradMod). Thanks!
+I'm an independent smart contracts security researcher. 
 
 ## Security Engagements 
 | Project | Protocol Type | Engagement Type | Language | Report |
@@ -26,9 +26,9 @@ I'm an independent smart contracts security researcher. This portfolio includes 
 | Chakra | Cross-chain | Code4rena | Cairo & Solidity | 3 High impact Findings and a Medium | [Bug](https://github.com/code-423n4/2024-08-chakra-findings/issues/84) | 
 
 ## Security Research 
-- Saving a User from a Nasty MEV Bot Scam - [Details](https://x.com/TheTradMod/status/1925686910594249177) 
+- [Saving a User from a Nasty MEV Bot Scam](https://x.com/TheTradMod/status/1925686910594249177) 
 
 ---
-For audits or collaborative team audits, please reach out to me on:
-- Twitter/X: [TheTradMod](https://x.com/TheTradMod)
-- Telegram: [TheTradMod](https://t.me/TheTradMod)
+
+> I am available for private smart contract security audits, testing, and collaborative team audits.
+Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](https://t.me/TheTradMod), or email at [TradMod@proton.me](mailto:TradMod@proton.me).
