@@ -101,12 +101,10 @@ function test_placeTaker_OverrideProblems_Poc() public {
 ```
 About the Coded PoC;
 Make sure to add the Mock Contracts to run the PoC. Mock Contracts can be created using this guide: https://medium.com/sphere-audits/a-complete-guide-to-erc20-fuzz-and-invariant-testing-using-foundry-23b06888b5fd. Also to make the PoC easy and straightforward, we omitted out these lines: 78, 80, 81, 723 & 727, As our main focus is to see the working of the contract's state.
-> ```solidity
-> For PoC to work make sure to remove the spoke.getAwait(sell_token, buy_token, lz_cid) calls in the tests OR add this view function in the Multichain.sol / Spoke contract:
 
+> For PoC to work make sure to remove the spoke.getAwait(sell_token, buy_token, lz_cid) calls in the tests OR add this view function in the Multichain.sol / Spoke contract:
 >     function getAwait(address sell_token, address buy_token, uint256 lz_cid) public view returns (bool await) {
 >         Pair storage selected_pair = book[lz_cid][sell_token][buy_token];
 >         return selected_pair.isAwaiting;
 >     }
-> ```
 > I added this getAwait() in the main contract, just for my help, you guys can do the same or remove all the spoke.getAwait() calls from the tests, it can be removed and the PoC will still work as one send() will pass & the other send() will still revert and thats enough to showcase the PoC.
