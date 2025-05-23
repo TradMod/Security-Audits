@@ -1,5 +1,4 @@
-## Title
-Dangerous Payable Function in DEX Smart Contract May Cause Permanent Locking of ETH
+## Dangerous Payable Function in DEX Smart Contract May Cause Permanent Locking of ETH
 
 ### **Bug Description**
 

@@ -1,5 +1,5 @@
 # TradMod Audit Portfolio
-I’m an independent security researcher with a focus on smart contract security, specializing in logic-heavy protocols, with a focus on cross-chain systems, bridges, staking and restaking mechanisms, governance/DAO frameworks, DEXes, etc. I’ve reported 25+ high and medium severity vulnerabilities across Solidity, Golang, and Rust-variant Cairo audit contests, and uncovered a bug in a live contract via Immunefi. My experience spans both solo and team audits, underpinned by a strong foundation in smart contract development. Prior to focusing on security, I led a development team to victory in two major hackathons, Chainlink and ETHGlobal. 
+I’m an independent security researcher with a focus on smart contract security, specializing in logic-heavy protocols, cross-chain systems, bridges, staking and restaking mechanisms, governance/DAO protocols, DEXes, etc. I’ve reported 25+ high and medium severity vulnerabilities across Solidity, Golang, and Rust-variant Cairo audit contests, and uncovered a bug in a live contract via Immunefi. My experience spans both solo and team audits, underpinned by a strong foundation in smart contract development. Prior to focusing on security, I led a development team to victory in two major hackathons, Chainlink and ETHGlobal. 
 
 > I am available for private smart contract security audits, testing, and collaborative team audits.
 Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](https://t.me/TheTradMod), or email at [TradMod@proton.me](mailto:TradMod@proton.me).
@@ -15,9 +15,10 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 | TokenTable | Tokens Vesting & Distribution | Team Audit/[Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
 ## Bug Bounty Findings
-| Project | Bug Description | Protocol Type | Severity | Language | Platform | Report |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| WardenSwap | Dangerous Payable Function | DEX | LOW | Solidity | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
+| Project | Bug Description | Protocol Type | Severity | Language | Platform | Status | Report |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| WardenSwap | Dangerous Payable Function | DEX | LOW | Solidity | Immunefi | Paid | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
+| Hourglass (old) | Attacker can Overwrite User Order Data | CLOB | Critical | Solidity | Immunefi | Project Removed | [Details](https://github.com/TradMod/Security-Audits/blob/main/BugBounty/WardenSwapBugReport.md) |
 
 ## Notable Audit Contests Achievements
 | Project | Protocol Type | Platform | Language | Result | Links |
