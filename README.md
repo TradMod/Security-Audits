@@ -16,9 +16,9 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 
 ## Bug Bounty Findings
 | Project | Bug Description | Protocol Type | Severity | Platform | Status | Report |
-|:-|:-|:-|:-|:-|:-|:-:|
-| WardenSwap | Dangerous Payable Function | DEX | LOW | Immunefi | Paid | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/WardenSwapBugReport.md) |
-| Hourglass | Attacker can Overwrite User Order Data | CLOB | CRITICAL | Immunefi | Project Removed | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/HourglassBugReport.md) |
+|:-|:-|:-|:-|:-|:-:|
+| WardenSwap | Dangerous Payable Function | DEX | LOW | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/WardenSwapBugReport.md) |
+| Hourglass | Attacker can Overwrite User Order Data | CLOB | CRITICAL | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/HourglassBugReport.md) |
 
 ## Notable Audit Contests Achievements
 | Project | Protocol Type | Platform | Language | Result | Links |
