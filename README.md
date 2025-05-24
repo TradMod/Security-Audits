@@ -15,7 +15,7 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 | TokenTable | Tokens Vesting & Distribution | Team Audit/[Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
 ## Bug Bounty Findings
-| Project | Bug Description | Protocol Type | Severity | Platform | Status | Report |
+| Project | Bug Description | Protocol Type | Severity | Platform | Report |
 |:-|:-|:-|:-|:-|:-:|
 | WardenSwap | Dangerous Payable Function | DEX | LOW | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/WardenSwapBugReport.md) |
 | Hourglass | Attacker can Overwrite User Order Data | CLOB | CRITICAL | Immunefi | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/HourglassBugReport.md) |
