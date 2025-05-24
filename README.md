@@ -15,10 +15,10 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 | TokenTable | Tokens Vesting & Distribution | Team Audit/[Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
 ## Bug Bounty Findings
-| Project | Bug Description | Protocol Type | Severity | Language | Platform | Status | Report |
-|:-|:-|:-|:-|:-|:-|:-|:-:|
-| WardenSwap | Dangerous Payable Function | DEX | LOW | Solidity | Immunefi | Paid | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/WardenSwapBugReport.md) |
-| Hourglass (old) | Attacker can Overwrite User Order Data | CLOB | CRITICAL | Solidity | Immunefi | Project Removed | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/HourglassBugReport.md) |
+| Project | Bug Description | Protocol Type | Severity | Platform | Status | Report |
+|:-|:-|:-|:-|:-|:-|:-:|
+| WardenSwap | Dangerous Payable Function | DEX | LOW | Immunefi | Paid | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/WardenSwapBugReport.md) |
+| Hourglass | Attacker can Overwrite User Order Data | CLOB | CRITICAL | Immunefi | Project Removed | [Details](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/HourglassBugReport.md) |
 
 ## Notable Audit Contests Achievements
 | Project | Protocol Type | Platform | Language | Result | Links |
