@@ -13,8 +13,8 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 | TokenTable | Tokens Vesting & Distribution | [Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 | Verde | Stablecoin, CDP Vault, Staking & Swaps | [BlockApex](https://blockapex.io/) | Solidity | [Link](https://github.com/BlockApex/Audit-Reports) |
 
-### Solo Audits & Engagement
-| Project | Protocol Type | Engagement Type | Language | Report |
+### Solo Audits & Engagements
+| Project | Protocol | Type | Language | Report |
 |:-|:-|:-|:-|:-:|
 | 0xEquity | RWAs Marketplace | Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
 | IDriss | Tokens Tipping/Payments | Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
