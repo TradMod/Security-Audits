@@ -5,14 +5,20 @@ I’m an independent security researcher with a focus on smart contracts securit
 Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](https://t.me/TheTradMod), or email at [TradMod@proton.me](mailto:TradMod@proton.me).
 
 ## Security Engagements 
+### Team & Collaborative Audits
+| Project | Protocol Type | Company | Language | Report |
+|:-|:-|:-|:-|:-:|
+| RemusDex | DEX & CLOB | [Codespect](https://codespect.net/) | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
+| Toucan LightLink | Cross-Chain Governance & LayerZero OFTs | [BlockApex](https://blockapex.io/) | Solidity | [Link](https://github.com/BlockApex/Audit-Reports) |
+| TokenTable | Tokens Vesting & Distribution | [Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
+| Verde | Stablecoin, CDP Vault, Staking & Swaps | [BlockApex](https://blockapex.io/) | Solidity | [Link](https://github.com/BlockApex/Audit-Reports) |
+
+### Solo Audits & Engagement
 | Project | Protocol Type | Engagement Type | Language | Report |
 |:-|:-|:-|:-|:-:|
-| 0xEquity | RWAs Marketplace | Solo Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
-| RemusDex | DEX & CLOB | Team Audit/[Codespect](https://codespect.net/) | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
-| IDriss | Tokens Tipping/Payments | Solo Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
+| 0xEquity | RWAs Marketplace | Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
+| IDriss | Tokens Tipping/Payments | Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
 | Possum Labs | DEX Adapter | Testing | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Testing/PossumLabsTestingReport.md) |
-| Toucan LightLink | Cross-Chain Governance & LayerZero OFTs | Team Audit/[BlockApex](https://blockapex.io/) | Solidity | [Link](https://github.com/BlockApex/Audit-Reports) |
-| TokenTable | Tokens Vesting & Distribution | Team Audit/[Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 
 ## Bug Bounty Findings
 | Project | Bug Description | Protocol Type | Severity | Details |
@@ -30,5 +36,6 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 | Chakra | Cross-chain | Code4rena | Cairo & Solidity | 3 High impact Findings and a Medium | [Bug](https://github.com/code-423n4/2024-08-chakra-findings/issues/84) | 
 
 ## Security Research 
+- [AcrossV3 Integration Guide](https://x.com/TheTradMod/status/1929886889940595143?t=29Ml30pWfJiemwt-Tf_r1w&s=19) [&](https://github.com/windhustler/Interoperability-Protocol-Security-Checklist/blob/main/audit-checklists/Across.md) [Research](https://gist.github.com/TradMod/e3947b23969b8eff56c6d3c92dbbd63a)
 - [Awesome-Audits-Checklists](https://github.com/TradMod/awesome-audits-checklists)
 - [Saving a User from a Nasty MEV Bot Scam](https://x.com/TheTradMod/status/1925686910594249177) 
