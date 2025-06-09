@@ -7,7 +7,7 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 ## Security Engagements 
 ### Team & Collaborative Audits
 | Project | Protocol Type | Company | Language | Report |
-|:-|:-|:-|:-|:-:|:-:|
+|:-|:-|:-|:-|:-:|
 | RemusDex | DEX & CLOB | [Codespect](https://codespect.net/) | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
 | Toucan LightLink | Cross-Chain Governance & LayerZero OFTs | [BlockApex](https://blockapex.io/) | Solidity | Private |
 | TokenTable | Tokens Vesting & Distribution | [Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
