@@ -15,11 +15,11 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 <!-- | Verde | Stablecoin, CDP Vault & Staking | [BlockApex](https://blockapex.io/) | Solidity | Private | -->
 
 ### Solo Audits & Engagements
-| Project | Protocol | Type | Language | Report |
-|:-|:-|:-|:-|:-:|
-| 0xEquity | RWAs Marketplace | Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
-| IDriss | Tokens Tipping/Payments | Audit | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
-| Possum Labs | DEX Adapter | Testing | Solidity | [Link](https://github.com/TradMod/Security-Audits/blob/main/Testing/PossumLabsTestingReport.md) |
+| Project | Protocol | Type | Report |
+|:-|:-|:-|:-:|
+| 0xEquity | RWAs Marketplace | Audit | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/0xEquityAuditReport.md) |
+| IDriss | Tokens Tipping/Payments | Audit | [Link](https://github.com/TradMod/Security-Audits/blob/main/Audits/IDrissAuditFindings.md) |
+| Possum Labs | DEX Adapter | Testing | [Link](https://github.com/TradMod/Security-Audits/blob/main/Testing/PossumLabsTestingReport.md) |
 
 ## Bug Bounty Findings
 | Project | Bug Description | Protocol Type | Severity | Details |
