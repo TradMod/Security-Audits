@@ -37,6 +37,7 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 | Chakra | Cross-chain | Code4rena | Cairo & Solidity | 3 High impact Findings and a Medium | [Bug](https://github.com/code-423n4/2024-08-chakra-findings/issues/84) | 
 
 ## Security Research 
-- [AcrossV3 Secure Integration Guide](https://x.com/TheTradMod/status/1929886889940595143?t=29Ml30pWfJiemwt-Tf_r1w&s=19) [&](https://github.com/windhustler/Interoperability-Protocol-Security-Checklist/blob/main/audit-checklists/Across.md) [Research](https://gist.github.com/TradMod/e3947b23969b8eff56c6d3c92dbbd63a)
 - [Awesome-Audits-Checklists](https://github.com/TradMod/awesome-audits-checklists)
+- [AcrossV3 Secure Integration Guide](https://x.com/TheTradMod/status/1929886889940595143?t=29Ml30pWfJiemwt-Tf_r1w&s=19) [&](https://github.com/windhustler/Interoperability-Protocol-Security-Checklist/blob/main/audit-checklists/Across.md) [Research](https://gist.github.com/TradMod/e3947b23969b8eff56c6d3c92dbbd63a)
 - [Saving a User from a Nasty MEV Bot Scam](https://x.com/TheTradMod/status/1925686910594249177) 
+- [Findings and Report Critical bug for free: Open-Source Contribution](https://x.com/TheTradMod/status/1743257299530203314)
