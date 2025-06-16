@@ -9,10 +9,10 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 | Project | Protocol Type | Company | Language | Report |
 |:-|:-|:-|:-|:-:|
 | RemusDex | DEX & CLOB | [Codespect](https://codespect.net/) | Cairo | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/004_CODESPECT_REMUSDEX_AUDIT.pdf) |
-| Toucan LightLink | Cross-Chain Governance & LayerZero OFTs | [BlockApex](https://blockapex.io/) | Solidity | [Link](https://reports.blockapex.io/report?id=PEN-DOC-202506020916) |
+| Toucan Aragon/LightLink | Cross-Chain Governance & LayerZero OFTs | [BlockApex](https://blockapex.io/) | Solidity | [Link](https://reports.blockapex.io/report?id=PEN-DOC-202506020916) |
 | TokenTable | Tokens Vesting & Distribution | [Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 | Mystic Finance | Liquid Staking & RWAfi | [KannAudits](https://kannaudits.com/) | Solidity | [Link](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Mystic%20Finance.pdf) |
-<!-- | Verde | Stablecoin, CDP Vault & Staking | [BlockApex](https://blockapex.io/) | Solidity | Private | -->
+| Verde MetaPool | Stablecoin, CDP Vault & Staking | [BlockApex](https://blockapex.io/) | Solidity | Private |
 
 ### Solo Audits & Engagements
 | Project | Protocol | Type | Report |
