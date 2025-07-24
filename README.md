@@ -26,6 +26,7 @@ Feel free to reach out via [Twitter/X](https://x.com/TheTradMod), [Telegram](htt
 |:-|:-|:-|:-|:-:|
 | WardenSwap | Dangerous Payable Function | AMM DEX  | LOW | [Bug Report](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/WardenSwapBugReport.md) |
 | Hourglass | Attacker can Overwrite User Order Data | CLOB DEX | CRITICAL | [Bug Report](https://github.com/TradMod/Security-Audits/blob/main/Bug%20Bounty/HourglassBugReport.md) |
+| UNDISCLOSED | - | - | MEDIUM | Soon™ |
 
 ## Notable Audit Contests Achievements
 | Project | Protocol Type | Platform | Language | Result | Links |
