@@ -11,8 +11,9 @@ From 2025 to 2026, I was at Immunefi, where I triaged dozens of security reports
 | Toucan Aragon/LightLink | Cross-Chain Governance & LayerZero OFTs | [BlockApex](https://blockapex.io/) | Solidity | [Link](https://reports.blockapex.io/report?id=PEN-DOC-202506020916) |
 | TokenTable | Tokens Vesting & Distribution | [Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 | Verde MetaPool | Stablecoin, CDP Vault & Staking | [BlockApex](https://blockapex.io/) | Solidity | Private |
-<!-- | Mystic Finance | Liquid Staking & RWAfi | [KannAudits](https://kannaudits.com/) | Solidity | [Link](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Mystic%20Finance.pdf) | -->
 | TermMax | Vault & Staking | [Immunefi](https://immunefi.com/) | Solidity | Private |
+<!-- | Mystic Finance | Liquid Staking & RWAfi | [KannAudits](https://kannaudits.com/) | Solidity | [Link](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Mystic%20Finance.pdf) | -->
+
 
 ### Solo Audits & Engagements
 | Project | Protocol | Type | Report |
