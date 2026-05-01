@@ -1,7 +1,7 @@
 # TradMod Audit Portfolio
-I’m an independent security researcher with a focus on smart contracts security, specializing in logic-heavy protocols, cross-chain systems, bridges infrastructure, staking and restaking mechanisms, governance and DAO protocols, Vaults, AMM & CLOB DEXs, etc. I’ve reported 55+ high and medium severity vulnerabilities across Solidity, Golang, and Rust-variant Cairo audis, and uncovered bugs in live protocols via Immunefi. My experience spans both solo and team audits, underpinned by a strong foundation in smart contracts development. Prior to focusing on security, I led a development team to victory in two major hackathons, Chainlink and ETHGlobal. In a nutshell, I do Jihad against Code ⚔
+I’m an independent security researcher with a focus on smart contracts security, specializing in logic-heavy protocols, cross-chain systems, bridges infrastructure, staking and restaking mechanisms, governance and DAO protocols, Vaults, AMM & CLOB DEXs, etc. I’ve reported 55+ high and medium severity vulnerabilities across Solidity, Golang, and Rust-variant Cairo audis, and uncovered bugs in live protocols via Immunefi. My experience spans both solo and team audits, underpinned by a strong foundation in smart contracts development. Prior to focusing on security, I led a development team to victory in two major hackathons, Chainlink and ETHGlobal. 
 
-> I've joined Immunefi as a [Smart Contracts Triager](https://x.com/TheTradMod/status/1980310734023324118), I'll be no longer available for audits engagements. Thanks!
+From 2025 to 2026, I was at Immunefi, where I triaged dozens of security reports daily, handled high-stakes mediation cases and conducted security reviews for high-TVL protocols. 
 
 ## Security Engagements 
 ### Team & Collaborative Audits
@@ -12,6 +12,7 @@ I’m an independent security researcher with a focus on smart contracts securit
 | TokenTable | Tokens Vesting & Distribution | [Codespect](https://codespect.net/) | Solidity | [Link](https://github.com/CODESPECT-security/audit-reports/blob/main/013_CODESPECT_TOKENTABLE_UNLOCKERV2_EVM.pdf) |
 | Verde MetaPool | Stablecoin, CDP Vault & Staking | [BlockApex](https://blockapex.io/) | Solidity | Private |
 <!-- | Mystic Finance | Liquid Staking & RWAfi | [KannAudits](https://kannaudits.com/) | Solidity | [Link](https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Mystic%20Finance.pdf) | -->
+| TermMax | Vault & Staking | [Immunefi](https://immunefi.com/) | Solidity | Private |
 
 ### Solo Audits & Engagements
 | Project | Protocol | Type | Report |
